@@ -35,5 +35,12 @@ void output(){
     cout << "status : Berat Badan Normal";
 }
 int main (){
+    float hasilBMI;
+
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+    input();
+
+    hasilBMI = menghitungBMI(tinggi,Berat);
+
     return 0;
 }
