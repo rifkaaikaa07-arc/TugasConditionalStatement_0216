@@ -9,6 +9,10 @@ void input(){
     cout << "Masukkan berat badan (kg): ";
     cin >> Berat;
 }
+
+float menghitungBMI (float tinggi,float Berat){
+    return Berat/(tinggi * tinggi);
+}
 int main (){
     return 0;
 }
