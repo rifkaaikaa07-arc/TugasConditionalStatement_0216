@@ -24,6 +24,16 @@ string kondisiBMI (float BMI){
     else
        return "obesitas";
 }
+
+void output(){
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---"<<endl;
+    cout << "Masukkan berat badan (kg): 70";
+    cout << "Masukkan Tinggi badan (meter): 1.7";
+
+    cout << "--- Hasil ---"; 
+    cout << "BMI Anda : 24.2215";
+    cout << "status : Berat Badan Normal";
+}
 int main (){
     return 0;
 }
