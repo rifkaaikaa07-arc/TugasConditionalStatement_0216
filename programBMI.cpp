@@ -42,5 +42,8 @@ int main (){
 
     hasilBMI = menghitungBMI(tinggi,Berat);
 
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << hasilBMI << endl;
+    cout << "Status : " << kondisiBMI(hasilBMI) << endl;
     return 0;
 }
